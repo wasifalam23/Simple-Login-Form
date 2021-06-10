@@ -20,7 +20,7 @@ const account4 = {
   password: 1111,
 };
 
-const accounts = [account1, account2, account4];
+const accounts = [account1, account2, account3, account4];
 
 // Elements
 const inputUser = document.querySelector('.form__username');
@@ -98,5 +98,3 @@ logout.addEventListener('click', function () {
   inputPassword.value = '';
   invalidText.style.opacity = 0;
 });
-
-console.log('Welcome');
