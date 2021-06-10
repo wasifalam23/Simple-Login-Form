@@ -1,0 +1,14 @@
+{
+  "name": "loginform",
+  "version": "1.0.0",
+  "description": "Simple login form using html, css and Javscript",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Wasif",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

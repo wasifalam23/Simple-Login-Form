@@ -1,0 +1,16 @@
+.message {
+  &__name {
+    font-weight: 600;
+  }
+
+  &__logout {
+    text-decoration: underline;
+    color: rgb(0, 89, 255);
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  &__logout:hover {
+    color: rgb(24, 102, 245);
+  }
+}
