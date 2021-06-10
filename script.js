@@ -15,7 +15,12 @@ const account3 = {
   password: 5555,
 };
 
-const accounts = [account1, account2, account3];
+const account4 = {
+  username: 'John Doe',
+  password: 1111,
+};
+
+const accounts = [account1, account2, account4];
 
 // Elements
 const inputUser = document.querySelector('.form__username');
