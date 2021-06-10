@@ -98,3 +98,5 @@ logout.addEventListener('click', function () {
   inputPassword.value = '';
   invalidText.style.opacity = 0;
 });
+
+console.log('Welcome');
